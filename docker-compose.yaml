@@ -3,7 +3,7 @@ services:
     hostname: router-timeout
     container_name: router-timeout
     # image: ghcr.io/wundergraph/cosmo/router:0.203.0
-    image: ghcr.io/wundergraph/cosmo/router:0.200.0
+    image: ghcr.io/wundergraph/cosmo/router:0.202.1
     restart: unless-stopped
     environment:
       CONFIG_PATH: "/app/config.yaml"
