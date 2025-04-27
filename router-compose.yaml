@@ -1,7 +1,7 @@
 version: "1"
 subgraphs:
   - name: default
-    routing_url: http://localhost:4000/graphql
+    routing_url: http://host.docker.internal:4000/graphql
     subscription:
       protocol: "ws"
     schema:

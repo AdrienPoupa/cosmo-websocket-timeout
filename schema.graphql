@@ -3,5 +3,13 @@ type Query {
 }
 
 type Subscription {
-  messageAdded: String
+  messageAdded1: String
+  messageAdded2: String
+  messageAdded3: String
+  messageAdded4: String
+  messageAdded5: String
+  messageAdded6: String
+  messageAdded7: String
+  messageAdded8: String
+  messageAdded9: String
 }
