@@ -17,6 +17,12 @@ npm install
 
 Add the router bin to the root of the repo.
 
+## Running the Router
+
+```bash
+docker compose up -d
+```
+
 ## Running the Server
 
 ```bash

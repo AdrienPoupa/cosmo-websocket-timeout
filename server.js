@@ -19,13 +19,13 @@ const typeDefs = fs.readFileSync(
 const messageAddedResolver = (index) => {
   return {
     subscribe: () => {
-      // Create an async iterator that emits a message with a random delay between 1 and 5 seconds
+      // Create an async iterator that emits a message with a random delay between 1 and 10 seconds
       return {
         [Symbol.asyncIterator]() {
           return {
             async next() {
               await new Promise((resolve) =>
-                setTimeout(resolve, Math.floor(Math.random() * 4000) + 120000)
+                setTimeout(resolve, Math.floor(Math.random() * 9000) + 1000)
               );
               return {
                 value: {
